@@ -1,5 +1,5 @@
 -- Ссылка на Библиотеку
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/1.0.1"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 -- Создать окно UI
 local Window = Library.CreateLib("Helor HUB", "RJTheme5")
 
@@ -81,7 +81,7 @@ Section:NewButton("R3THPRIV", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
 end)
 Section:NewButton("Noclip", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP.lua"))()
 end)
 
 -- Слайдер
@@ -102,7 +102,7 @@ Section:NewButton("PrizzLife", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
 end)
 Section:NewButton("Noclip", "ButtonInfo", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP.lua"))()
 end)
 -- Слайдер
 Section:NewSlider("SPEED", "SliderInfo", 1000, 0, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
@@ -123,7 +123,7 @@ Section:NewButton("YARM", "ButtonInfo", function()
 end)
 -- Кнопка
 Section:NewButton("Noclip", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP.lua"))()
 end)
 -- Слайдер
 Section:NewSlider("SPEED", "SliderInfo", 1000, 0, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
@@ -144,7 +144,7 @@ Section:NewButton("Lucky", "ButtonInfo", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
 end)
 Section:NewButton("Noclip", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP.lua"))()
 end)
 
 -- Слайдер
