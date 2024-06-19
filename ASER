@@ -25,6 +25,10 @@ Section:NewToggle("NO WORK", "ToggleInfo", function(state)
         
     end
 end)
+-- Слайдер
+Section:NewSlider("JumpPower", "SliderInfo", 1000, 0, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = j
+end)
 
 -- Слайдер
 Section:NewSlider("SPEED", "SliderInfo", 1000, 0, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
@@ -124,7 +128,7 @@ Section:NewSlider("SPEED", "SliderInfo", 1000, 0, function(s) -- 1000 (Макс.
 end)
 
 -- Секция
-local Tab = Window:NewTab("Prison Life")
+local Tab = Window:NewTab("L.B.B")
 
 -- Подсекция
 local Section = Tab:NewSection("Helor HUB(ALPHA)")
@@ -133,8 +137,8 @@ local Section = Tab:NewSection("Helor HUB(ALPHA)")
 Section:NewLabel("FUNCTIONS")
 
 -- Кнопка
-Section:NewButton("PrizzLife", "ButtonInfo", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+Section:NewButton("Lucky", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
 end)
 Section:NewButton("Noclip", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/NOCLIP"))()
