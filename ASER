@@ -164,7 +164,7 @@ local Tab = Window:NewTab("Settings")
 local Section = Tab:NewSection("Helor HUB(ALPHA)")
 
 -- Заголовок
-Section:NewLabel("CREDITS: SCRIPTINGERIN")
+Section:NewLabel("CREDITS: SCRIPTINGERIN and viktor_vary")
 
 -- Кнопка
 Section:NewButton("EXIT", "ButtonInfo", function()
