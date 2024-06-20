@@ -1,0 +1,22 @@
+-- Ссылка на Библиотеку
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+-- Создать окно UI
+local Window = Library.CreateLib("Helor HUB MAIN", "RJTheme4")
+
+-- Секция
+local Tab = Window:NewTab("Settings")
+
+-- Подсекция
+local Section = Tab:NewSection("Helor HUB(Beta)")
+
+-- Заголовок
+Section:NewLabel("CREDITS: SCRIPTINGERIN and viktor_vary")
+
+-- Кнопка
+Section:NewButton("EXIT", "KICKED YOU", function()
+    game.Players.LocalPlayer:Kick("bruh you leave")
+end)
+-- Кнопка
+Section:NewButton("Activate", "Helor HUB", function()
+    loadstring(game:HttpGet(''))()
+end)
