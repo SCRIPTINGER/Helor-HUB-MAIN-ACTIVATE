@@ -18,5 +18,5 @@ Section:NewButton("EXIT", "KICKED YOU", function()
 end)
 -- Кнопка
 Section:NewButton("Activate", "Helor HUB", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/1.0.2?token=GHSAT0AAAAAACTZUFQBUM77Y5AKWSKE3VV2ZTT2VYA'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTINGER/HELOR-HUB/main/1.0.2?token=GHSAT0AAAAAACTZUFQANJORG3TW5OQLJUO4ZTT22JQ'))()
 end)
